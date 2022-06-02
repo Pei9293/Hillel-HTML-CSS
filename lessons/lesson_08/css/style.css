@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset css */
+h2{
+	font-family: raleway, semibold;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 42px;
+  color:#000000;
+}
+.header li a {
+  font-family: raleway,regular ;
+  font-weight:400;
+  font-size: 24px;
+	line-height: 28px;
+  color:#000000;
+	text-decoration: none;
+}
+.mainMenu li a {
+	font-family: raleway,regular;
+  font-weight:400 ;
+	font-size: 30px;
+	line-height: 35px;
+	color:#000000;
+	text-decoration: none;
+}
+.mainMenu article p:nth-child(even) {
+font-family: raleway,bold;
+font-weight: 700;
+font-size: 18px; 
+line-height: 21px;
+color: #7cbfac;
+}
+.mainMenu article h3{
+	font-family: raleway,bold;
+  font-weight:700 ;
+	font-size: 17px;
+	line-height: 19px;
+	color:#000000;
+}
+.mainMenu article p{
+	font-family: raleway,regular;
+  font-weight:400 ;
+	font-size: 17px;
+	line-height: 19px;
+	color:#000000;
+}
+.click a {
+	font-family: raleway,semi bold;
+  font-weight:600 ;
+	font-size: 20px;
+	line-height: 23px;
+	color:#363636;
+	text-decoration: none;
+}
+.typeSkin a {
+	font-family: raleway,bold;
+  font-weight:700 ;
+	font-size: 24px;
+	line-height: 28px;
+	color:#000000;
+	text-decoration: none;
+}
+.popularProducts h3{
+	font-family: raleway,bold;
+  font-weight:700 ;
+	font-size: 17px;
+	line-height: 19px;
+	color:#000000;
+}
+.popularProducts article p{
+	font-family: raleway,regular;
+  font-weight:400;
+	font-size: 17px;
+	line-height: 19px;
+	color:#000000;
+}
+.blok__1 li a{
+	font-family: Open Sans,regular;
+  font-weight:400;
+	font-size: 30px;
+	line-height: 40px;
+	color:#242424;
+	text-decoration: none;
+}
+.blok__2 a {
+	font-family: Open Sans,regular;
+  font-weight:400;
+	font-size: 30px;
+	line-height: 40px;
+	color:#242424;
+	text-decoration: none;
+} 
+  nav li  a {
+	font-family: Open Sans,light;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 32px;
+	color:#242424;
+	text-decoration: none;
+}
+.blok__4 a {
+	font-family: Open Sans,regular;
+  font-weight:400;
+	font-size: 30px;
+	line-height: 40px;
+	color:#242424;
+	text-decoration: none;
+} 
+div a {
+	font-family: Open Sans,Semi Bold;
+  font-weight:600;
+	font-size: 25px;
+	line-height: 34px;
+	color:#242424;
+	text-decoration: none;
+} 
+footer p {
+	font-family: Open Sans,regular;
+  font-weight:400;
+	font-size: 20px;
+	line-height: 27px;
+	color:#242424;
+}

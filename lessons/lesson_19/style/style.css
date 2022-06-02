@@ -1,0 +1,30 @@
+body {
+  background-color: #040404;
+  background: rgb(239, 233, 233);
+  background-size: 1000px 900px;
+}
+
+.ball {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #1b8e72;
+  border-radius: 100%;
+  animation: dws-bounce 3s linear infinite,
+  dws-noveleft 25s linear infinite;
+}
+
+
+@keyframes dws-bounce {
+  0% { bottom: 100%;}
+  25% { bottom: 0%; width: 100px; height: 100px; }
+  30% { bottom: 0%; width: 110px; height: 25px;  }
+  35% { bottom: 0%; width: 100px; height: 100px; }
+  70% { bottom: 100%; }
+  100% { bottom: 100%;}
+}
+@keyframes dws-moveLeft {
+  from { left: 0;}
+  to { left: 100%;}
+
+}
